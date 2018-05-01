@@ -1,0 +1,12 @@
+{
+    "Speakers": [
+        {
+            "fName": "Patrick",
+            "lName": "McKenna",
+            "email": "mckpats4@gmail.com",
+            "password": "password",
+            "company": "Mad Hatter Productions",
+            "phone": "555-5555"
+        }
+    ]
+}

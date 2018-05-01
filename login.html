@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Destination Creation</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="css/styles.css" />
+    </head>
+    <body>
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="about.html">About</a> |
+            <a href="attend.html">Attend/Tickets</a> |
+            <a href="location.html">Location</a> |
+            <a href="contact.html">Contact</a> |
+            <a href="addsubmit.html">Schedule</a> |
+            <a href="register.html">Sign Up/Login</a>
+
+        </nav>
+        
+        <section class="logOn">
+            <h1 class="headerNameReturn">Hello</h1>
+            <button class="delete">Delete User</button>
+            <button class="update">Update Guest</button>
+            <form class="loginForm">
+                <table cellspacing="10">
+                    <thead>
+                        <tr>
+                            <th>Destination Registration Login</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="regnow">Email:<input class="email" type="email" name="email" required /></td>
+                        </tr>
+                        <tr>
+                            <td class="regnow">Password:<input class="password" type="password" name="password" required /></td>
+                        </tr>
+                        <tr>
+                            <td><button class="loginSubmit" type="submit">Login</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+                
+            <button class="logout">Log out</button>
+        </section>
+        <footer><h2>&copy; Destination Creation 2018</h2>
+            <p>Contact us at dcreation@gmail.com</p>
+        </footer>
+
+        <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
+        <script src="lib/jquery-3.2.1.min.js"></script>
+        <script src="providers/firebaseprovider.js"></script>
+        <script src="app/app.js"></script>
+
+    </body>
+</html>

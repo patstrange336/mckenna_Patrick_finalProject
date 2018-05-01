@@ -1,0 +1,583 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 9, 2018, 11:16:33 AM
+    Author     : Shirley
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	height:100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin-bottom:16px;
+}
+
+
+nav {
+    width:100%;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 25px;
+    background-color:#162D8F;
+    height: 50px;
+}
+
+nav a {
+    color: lavender;
+    font-family:monospace;
+    margin: 35px;
+}
+
+nav a:hover {
+   color:aqua; 
+}
+
+footer {
+    background-color: #162D8F;
+    min-height:20%;
+    text-align: center;
+    color:white;
+}
+
+footer p {
+    font-size: 24px;
+}
+
+footer h2 {
+    padding-top: 50px;
+}
+
+.wrapper {
+    height: 50%;
+    background-color: #162D8F;
+    font-family:monospace;
+    margin:0 auto;
+    text-align:center;
+}
+
+.wrapper p {
+    font-size: 48px;
+    color: white;
+    position: relative;
+    top: 25%;
+}
+
+.wrapper a {
+    color:white;
+}
+
+.wrapper a:hover {
+    color: aqua;
+}
+
+.makeContent {
+    font-family: monospace;
+    font-size: 28px;
+    text-align: center;
+}
+
+.makeContent img {
+    width: 425px;
+    height:400px;
+}
+
+.button {
+    text-align:center;
+    font-size: 20px;
+    border-radius:30px;
+    width:250px;
+    background-color:#162D8F;
+}
+
+button {
+    color:white;
+}
+
+.button a {
+    text-decoration: none;
+    color: black;
+}
+
+.siteList {
+    font-family:monospace;
+    font-size: 28px;
+    height: 50%;
+}
+
+.siteList h2 {
+    text-align: center;
+}
+
+.siteList table {
+    border-color: black;
+    border-collapse: collapse;
+    margin: 0 auto;
+    border-style:solid;
+    position: relative;
+    top: 15%;
+    
+}
+
+.siteList table td img {
+    width: 300px;
+    height: 100px;
+}
+
+
+.helper tr td {
+    font-size: 24px;
+    padding-left: 40px;
+}
+
+.helper textarea, input {
+    margin-right: 20px;
+    float: right;
+    width:300px;
+}
+
+.helper {
+    margin-left:38px;
+}
+
+.helper button{
+    width: 100px;
+    margin:0 auto;
+    font-size: 20px;
+    border-radius:30px;
+    width:150px;
+    background-color:#162D8F;
+}
+
+.attendTicket {
+    width: 230px;
+    margin:0 auto;
+}
+
+.attendTicket button {
+    font-size: 20px;
+    width: 220px;
+    height:50px;
+    border-radius:30px;
+    background-color:#162D8F;
+}
+
+.about  {
+    font-size: 20px;
+    margin-left: 200px;
+    text-align: left;
+    margin:0 auto;
+    width: 50%;
+    color:black;
+}
+
+.aboutTitle {
+    text-align:center;
+}
+
+.banner {
+    
+    background-color:#162D8F;
+}
+
+.banner img{
+    height:620px;
+    width:100%;
+}
+
+.banner2 img{
+    height:300px;
+    width:100%;
+}
+
+.directLocation {
+    height:100%;
+    background-color:#1340FF;
+}
+
+.directLocation a {
+    color: lavender;
+    font-family:monospace;
+    text-decoration: none;
+}
+
+.directLocation a:hover {
+    color: aqua;
+}
+
+.directLocation h3 {
+    color: white;
+    text-align:center;
+}
+
+.directLocation img{
+    width: 100%;
+}
+
+.convention {
+    height:100%;
+    background-color:#1340FF;
+}
+
+.convention img {
+    float:left;
+    margin-left: 20px;
+    width: 600px;
+    height: 75%;
+}
+
+.convention h3 {
+    font-family:monospace;
+    font-size: 30px;
+}
+
+.convention h4 {
+    text-decoration:underline;
+}
+
+.directLocation .convention p {
+    font-family: monospace;
+    font-size: 28px;
+    color: white;
+    margin-left: 650px;
+}
+
+.directLocation .convention h4 {
+    font-family: monospace;
+    font-size: 36px;
+    color: white;
+    margin-left: 650px;
+}
+
+.hotel h3 {
+    font-family:monospace;
+    font-size: 30px;
+    color: black;
+}
+
+.hotel img{
+    width: 450px;
+    height: 300px;
+}
+
+.hotel table {
+    margin: 0 auto;
+}
+
+.hotel table td {
+    font-family:monospace;
+    text-align:center;
+    font-size:18px;
+}
+
+.hotel a {
+    color:black;
+    text-decoration:underline;
+}
+
+.logbackIn {
+    font-size: 16px;
+    color: blue;
+    border-color: aqua;
+    margin: 0 auto;
+    text-align: center;
+    width: 400px;
+    height:500px;
+}
+
+.directLocation .hotel button {
+    font-size: 20px;
+    border-radius:30px;
+    width:250px;
+    height:50px;
+    background-color:#162D8F;
+}
+
+.hotelButton {
+    width: 240px;
+    margin:0 auto;
+}
+
+section {
+    height:100%;
+    background-color:#1340FF;
+}
+
+section table {
+    background-color:white;
+    border-radius: 20px;
+    margin: 0 auto;
+    width: 650px;
+    height: 500px;
+    position: absolute;
+    top:25%;
+    left:28%
+}
+
+section table th {
+    font-size: 30px;
+}
+
+.concerns {
+    padding-top: 35px;
+    font-size: 18px;
+    color: white;
+    text-align:center;
+    margin: 0 auto;
+}
+
+.concerns .helper .hotelButton button {
+   font-size: 20px;
+    width: 220px;
+    height:50px;
+    border-radius:30px;
+    background-color:#162D8F;
+}
+
+
+.register table input {
+    width: 55%;
+    height: 40%;
+    margin-right: 30px;
+    float:right;
+}
+
+.regnow {
+    font-size: 20px;
+    padding-left: 50px;
+}
+
+.regnow input {
+    padding: 10px;
+}
+
+.regnow textarea {
+    height: 20px;
+}
+
+.regnowSpeak {
+    font-size: 20px;
+    padding-left: 50px;
+}
+
+.regnowSpeak input {
+    padding: 5px;
+}
+
+.regnowSpeak textarea {
+    height: 20px;
+}
+
+.speakup .regnow input {
+    width: 50%;
+    float: right;
+}
+
+.speakup table textarea {
+    margin-right:20px;
+    width:300px;
+    height: 120px;
+    float:right;
+}
+
+.speakup select {
+    float: right;
+    margin-right:20px;
+    width:300px;
+    height:25px;
+}
+
+.register button {
+    font-size: 20px;
+    border-radius:30px;
+    width:150px;
+    color:white;
+    background-color:#162D8F;
+    margin-left: 250px;
+}
+
+.logOn button {
+    font-size: 20px;
+    border-radius:30px;
+    width:150px;
+    color:white;
+    background-color:#162D8F;
+    margin-left: 250px;
+}
+
+.speakup button {
+    font-size: 20px;
+    border-radius:30px;
+    width:150px;
+    color:white;
+    background-color:#162D8F;
+    margin-left: 250px;
+}
+
+.logOn table input {
+    width: 55%;
+    height: 30%;
+    margin-right: 30px;
+    float:right;
+}
+
+.selectMany {
+    width:100%;
+    padding-top: 100px;
+    height:100%;
+    background-color:#2F4199;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+
+.selectMany h1 {
+    font-family:monospace;
+    color:white;
+    -webkit-text-stroke: 2px black;
+    text-align:center;
+    font-size:60px;
+}
+
+.selectMany a {
+    margin: 0 auto;
+    text-decoration: none;
+    color:white;
+}
+
+.selectMany button {
+    margin-top:30px;
+    font-size: 20px;
+    background-color:#162D8F;
+}
+
+.selectMany h2 {
+    font-size: 26px;
+}
+
+.chooseOne, .chooseTwo, .chooseThree {
+    padding-top: 10px;
+    width: 50%;
+    height:250px;
+    text-align:center;
+}
+
+
+.chooseOne {
+    margin: 0 auto;
+    color:white;
+}
+
+.chooseOne button {
+    background-color: red;
+    width: 100px;
+    min-width: 400px;
+}
+
+.chooseTwo {
+    margin: 0 auto;
+    color:white;
+}
+
+.chooseTwo button {
+    background-color: blue;
+    width: 100px;
+    min-width: 400px;
+}
+
+.chooseThree {
+    margin: 0 auto;
+    color:white;
+}
+
+.chooseThree button {
+    background-color: #AC5610;
+    width: 100px;
+    min-width: 400px;
+}
+
+.speakSection table {
+    margin-left: 38px;
+}
+
+.speakSection textarea {
+    margin-right:20px;
+    float:right;
+    width:50%;
+}
+
+.speakSection input {
+    height:25px;
+}
+
+
+.speakSection button {
+    font-size: 20px;
+    border-radius:30px;
+    width:150px;
+    background-color:#162D8F;
+    margin-left: 250px;
+}
+
+.headerName {
+    text-align: center;
+}
+
+.headerNameReturn {
+    text-align:center;
+}
+
+.modal {
+    position:fixed;
+    right: 0;
+    left:0;
+    top:0;
+    bottom:0;
+    display:none;
+}
+
+.modal nav {
+    width:100%;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 25px;
+    background-color:#162D8F;
+    height: 50px;
+}
+
+.registerForm table {
+   margin-left: -400px;
+}
+
+.loginFormTwo table {
+    margin-left: -400px;
+}
+
+.loginForm table {
+    margin-left:400px;
+}
+
+.headerName {
+    font-size: 28px;
+}
+
+.delete, .update, .logout {
+    margin-right: 50px;
+}
+
+
+
+@media all and (max-width:1500px){
+    
+    nav {
+        height: 80px;
+    }
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Destination Creation - About</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="css/styles.css" />
+    </head>
+    <body>
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="about.html">About</a> |
+            <a href="attend.html">Attend/Tickets</a> |
+            <a href="location.html">Location</a> |
+            <a href="contact.html">Contact</a> |
+            <a href="addsubmit.html">Schedule</a> |
+            <a href="register.html">Sign Up/Login</a>
+
+        </nav>
+
+        <section class="speakSection"> 
+            <form>
+                <table border="0">
+                    <thead>
+                        <tr>
+                            <th>Speaker Presentation Submission</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="regnow">Presentation Title: <input type="text" name="title" required /></td>
+                        </tr>
+                        <tr>
+                            <td class="regnow">Description: <textarea></textarea></td>
+                        </tr>
+                        <tr>
+                            <td class="regnow">Length: <input type="text" name="length" required /></td>
+                        </tr>
+                        <tr>
+                            <td><button type="submit">Submit</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+        </section>
+        <footer><h2>&copy; Destination Creation 2018</h2>
+            <p>Contact us at dcreation@gmail.com</p>
+        </footer>
+
+        <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
+        <script src="lib/jquery-3.2.1.min.js"></script>
+        <script src="providers/firebaseprovider.js"></script>
+        <script src="app/app.js"></script>
+
+    </body>
+</html>

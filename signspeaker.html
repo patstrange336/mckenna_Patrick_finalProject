@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Destination Creation - Sign In as Speaker</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="css/styles.css" />
+    </head>
+    <body>
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="about.html">About</a> |
+            <a href="attend.html">Attend/Tickets</a> |
+            <a href="location.html">Location</a> |
+            <a href="contact.html">Contact</a> |
+            <a href="addsubmit.html">Schedule</a> |
+            <a href="register.html">Sign Up/Login</a>
+
+        </nav>
+
+        <section class="speakup">
+            <h1 class="headerName">Hello</h1>
+            <button class="delete">Delete User</button>
+            <button class="update">Update Guest</button>
+            <button class="logout">Log out</button>
+            <form class="loginFormTwo">
+                <table>
+                    <thead>
+                        <tr>
+                            <th colspan="2">Destination Creation Registration for Speakers</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="regnowSpeak" colspan="2"><label>First Name:</label><input class="fName" type="text" name="fName" required /></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td class="regnowSpeak" colspan="2"><label>Last Name:</label><input class="lName" type="text" name="lName" required /></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td class="regnowSpeak" colspan="2">Password:<input class="password" type="password" name="password" required /></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td class="regnowSpeak" colspan="2">Email:<input class="email" type="email" name="email" required /></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td class="regnowSpeak" colspan="2">Twitter:<input class="twitter" type="text" name="twitter"  /></td>
+                    <td></td>
+                    </tr>
+                    <tr>
+                            <td class="regnowSpeak" colspan="2">Company Name:<input class="company" type="text" name="company" required /></td>
+                    <td></td>
+                    </tr>
+                    <tr>
+                            <td class="regnowSpeak" colspan="2">Phone Number:<input class="phone" type="text" name="phone" required /></td>
+                    <td></td>
+                    </tr>
+                    <tr>
+                        <td class="regnowSpeak" colspan="2">Bio:<textarea name="bio" rows="4" cols="20" required ></textarea></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="regnow" colspan="2">Image (copy and paste URL):<input type="url" name="image" /></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="hotelButton" colspan="2"><button class="submit" type="submit">Submit</button></td>
+                        <td></td>
+                    </tr>
+                    </tbody>
+                </table>
+
+            </form>
+            
+            <form class="loginForm">
+                <table cellspacing="10">
+                    <thead>
+                        <tr>
+                            <th>Already registered? Please login.</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="regnow">Email:<input class="email" type="email" name="email" required /></td>
+                        </tr>
+                        <tr>
+                            <td class="regnow">Password:<input class="password" type="password" name="password" required /></td>
+                        </tr>
+                        <tr>
+                            <td><button class="loginSubmit" type="submit">Login</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+
+        </section>
+        <footer><h2>&copy; Destination Creation 2018</h2>
+            <p>Contact us at dcreation@gmail.com</p>
+        </footer>
+
+        <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+        <script src="lib/jquery-3.2.1.min.js"></script>
+        <script src="providers/firebaseprovider.js"></script>
+        <script src="app/app.js"></script>
+
+    </body>
+</html>
